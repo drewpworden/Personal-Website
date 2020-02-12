@@ -40,7 +40,7 @@ header
 main
 {
   position: fixed;
-  background-color: black;
+  background-color: white;
   width: 100%;
   height: 85vh;
 }
@@ -78,4 +78,51 @@ main
   font-family: 'Josefin Sans', sans-serif;
   font-size: 40pt;
   text-shadow: 2px 11px 20px #000000
+}
+
+#about_main
+{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+#stare
+{
+  border-right: 5px solid black;
+}
+
+.about_right_main
+{
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.about_text_tile
+{
+  background-color: rgb(3, 107, 252);
+  width: 70%;
+  height: 60%;
+  margin-bottom: 3vh;
+  border-radius: 1%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  box-shadow: 0px 10px 16px 0px rgba(50, 50, 50, 0.5);
+  padding: 3%;
+}
+
+.about_text_tile_text
+{
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  text-align: center;
+  line-height: 15pt;
+}
+
+#about_text_spacer
+{
+  height: 3vh;
+  width: 100%;
 }
