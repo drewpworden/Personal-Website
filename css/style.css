@@ -5,6 +5,12 @@
   border: 0;
 }
 
+a
+{
+  text-decoration: none;
+  color: black;
+}
+
 header
 {
   background-color: white;
@@ -12,6 +18,7 @@ header
   height: 15vh;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  border-bottom: 5px solid black;
 }
 
 .header_div
@@ -22,6 +29,7 @@ header
   justify-content: center;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 18pt;
+  color: black;
 }
 
 #personal_logo
@@ -31,14 +39,43 @@ header
 
 main
 {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
+  position: fixed;
   background-color: black;
   width: 100%;
   height: 85vh;
 }
 
-#stare
+#headshot
 {
-  height: 85vh;
+  height: 30vh;
+  width: auto;
+  border-radius: 50%;
+  box-shadow: 10px 50px 100px 5px black;
+  border: 5px solid black;
+  justify-self: center;
+  align-self: center;
+}
+
+#home_background
+{
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  height: 100vh;
+}
+
+.main_top_div
+{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.main_name_text
+{
+  justify-self: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 40pt;
+  text-shadow: 2px 11px 20px #000000
 }
