@@ -258,7 +258,22 @@ main
  
  .ra_port_1920_sec
  {
-   
+   display: grid;
+   grid-template-columns: 1fr;
+   justify-items: center;
+   align-items: center;
+ }
+ 
+ #litch
+ {
+    width: 100%;
+    height: 100vh;
+ }
+ 
+ #wcsu_logo
+ {
+   width: 80%;
+   margin-bottom: 20vh;
  }
  
  .ra_port_1920_prim
@@ -285,6 +300,7 @@ main
    width: 70%;
    background-color: black;
    height: 0.5vh;
+   margin-top: 1vh;
  }
  
  #door_tag_title
@@ -294,8 +310,64 @@ main
    margin-top: 10vh;
  }
  
+ .door_text
+ {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15pt;
+    width: 65%;
+    margin-bottom: 5vh;
+ }
+ 
+ .door_number
+ {
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: 40pt;
+ }
+ 
+ #door_num1
+ {
+   margin-top: 10vh;
+ }
+ 
+ #door1
+ {
+   width: 60%;
+   height: auto;
+   margin-bottom: 5vh;
+ }
+ 
+ #door2
+ {
+   margin-top: 5vh;
+   width: 45%;
+   height: auto;
+   margin-bottom: 7vh;
+ }
  #door3
+ {
+   width: 50%;
+   height: auto;
+   margin-top: 2vh;
+ }
+ 
+ #door4
  {
    width: 40%;
    height: auto;
+ }
+ 
+ #ra_port_title
+ {
+   margin-top: 5vh;
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: 40pt;
+ }
+ 
+ #ra_port_p
+ {
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: 15pt;
+   margin-left: 5vw;
+   margin-right: 5vw;
+   margin-top: 3vh;
  }
