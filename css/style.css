@@ -19,7 +19,6 @@ header
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   border-bottom: 5px solid black;
-  z-index: 100;
 }
 
 .header_div
@@ -326,7 +325,7 @@ main
  
  #door_num1
  {
-   margin-top: 10vh;
+   margin-top: 7vh;
  }
  
  #door1
@@ -356,6 +355,12 @@ main
    height: auto;
  }
  
+#door_num5
+{
+  margin-bottom: 3vh;
+  margin-top: 5vh;
+}
+
  #ra_port_title
  {
    margin-top: 5vh;
@@ -371,3 +376,105 @@ main
    margin-right: 5vw;
    margin-top: 3vh;
  }
+ 
+ .ra_resume
+ {
+   display: grid;
+   grid-template-columns: 1fr;
+   justify-items: center;
+ }
+ 
+ .resume_1920
+ {
+   width: 45vw;
+   height: auto;
+   border: 2pt solid black;
+   margin-bottom: 2vh;
+ }
+ 
+ .cover_letter
+ {
+   display: grid;
+   grid-template-columns: 1fr;
+   justify-items: center;
+ }
+ 
+ #cover_title
+ {
+   margin-top: 8vh;
+   font-size: 30pt;
+   font-family: 'Josefin Sans', sans-serif;
+ }
+ 
+ #cover_letter
+ {
+   width: 45vw;
+   height: auto;
+   border: 2pt solid black;
+   margin-bottom: 2vh;
+ }
+ 
+ #resume_top
+ {
+   margin-top: 7vh;
+ }
+ 
+ #resume_title
+ {
+   margin-top: 8vh;
+   font-size: 30pt;
+   font-family: 'Josefin Sans', sans-serif;
+ }
+ 
+ .door_bar_resume
+ {
+   width: 45vw;
+   background-color: black;
+   height: 0.5vh;
+   margin-top: 1vh;
+   margin-bottom: 7vh;
+ }
+ 
+ .download_text
+ {
+   font-size: 15pt;
+   font-family: 'Josefin Sans', sans-serif;
+   color: rgb(3, 107, 252);
+ }
+ 
+ #resume_download
+ {
+   margin-top: 2vh;
+ }
+ 
+ #cover_download
+ {
+   margin-top: 2vh;
+ }
+ 
+ #door_text_5
+ {
+   margin-top: 3vh;
+ }
+ 
+ .top_links
+ {
+   color: rgb(3, 107, 252);
+ }
+ 
+ #bull
+ {
+   display: grid;
+   grid-template-columns: 1fr;
+   justify-items: center;
+ }
+ 
+ #bull_title
+ {
+   font-size: 30pt;
+   font-family: 'Josefin Sans', sans-serif;
+   margin-top: 10vh;
+ }
+
+ 
+ 
