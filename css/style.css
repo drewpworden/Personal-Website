@@ -94,6 +94,8 @@ main
 #stare
 {
   border-right: 5px solid black;
+  height: 100%;
+  width: 100%
 }
 
 .about_right_main
@@ -252,7 +254,6 @@ main
  {
    display: grid;
    grid-template-columns: 1fr 3fr 1fr;
-   overflow: hidden;
  }
  
  .ra_port_1920_sec
@@ -283,7 +284,7 @@ main
    display: grid;
    grid-template-columns: 1fr;
    justify-items: center;
-   overflow-y: scroll;
+   overflow-y: auto;
    position: static;
  }
  
@@ -474,6 +475,20 @@ main
    font-size: 30pt;
    font-family: 'Josefin Sans', sans-serif;
    margin-top: 10vh;
+ }
+
+ .bull_bar
+ {
+  width: 40vw;
+  background-color: black;
+  height: 0.5vh;
+  margin-top: 1vh;
+ }
+
+ #spacer
+ {
+   width: 100%;
+   height: 20vh;
  }
 
  
