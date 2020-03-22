@@ -491,5 +491,11 @@ main
    height: 20vh;
  }
 
+ #board1
+ {
+  margin-top: 4vh;
+  width: 70%;
+ }
+
  
  
