@@ -309,6 +309,20 @@ main
    font-family: 'Josefin Sans', sans-serif;
    margin-top: 10vh;
  }
+
+ #flyer
+ {
+  font-size: 30pt;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 10vh;
+ }
+
+ #bboard
+ {
+  font-size: 30pt;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 10vh;
+ }
  
  .door_text
  {
